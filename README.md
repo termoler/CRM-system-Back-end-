@@ -45,7 +45,7 @@ git clone https://github.com/username/repository.git
 cd repository
 ```
 ### Конфигурация базы данных
-При использовании PostgreSQL, необходимо настроить подключение в файле application.properties:
+При использовании PostgreSQL, необходимо настроить подключение в файле application.properties, это необходимо сделать, иначе проект не запустится:
 ```properties
 spring.application.name=Crm
 spring.datasource.driver-class-name=org.postgresql.Driver
