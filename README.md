@@ -44,11 +44,6 @@
 git clone https://github.com/username/repository.git
 cd repository
 ```
-Соберите проект с помощью Gradle:
-```bash
-./gradlew build
-```
-
 ### Конфигурация базы данных
 При использовании PostgreSQL, необходимо настроить подключение в файле application.properties:
 ```properties
@@ -65,6 +60,10 @@ spring.mvc.hiddenmethod.filter.enabled=true
 ```
 
 ### Запуск проекта
+Соберите проект с помощью Gradle:
+```bash
+./gradlew build
+```
 Запустите проект с помощью следующей команды:
 ```bash
 ./gradlew bootRun
